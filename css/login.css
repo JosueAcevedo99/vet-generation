@@ -1,0 +1,50 @@
+:root{
+    --main-bg:#6ebf8d;
+  }
+  
+  .main-bg {
+    background: var(--main-bg) !important;
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bg) !important;
+    border-color: var(--main-bg) !important;
+  }
+  
+  .card{
+    border-radius: 25px !important;
+  }
+  
+  .btn{
+    border-radius: 25px !important;
+  }
+
+  .input{
+    border-radius: 25px !important;
+  }
+
+  .bgimg{
+    border-radius: 25px !important;
+    background: url(https://st3.depositphotos.com/1007566/12749/v/380/depositphotos_127490620-stock-illustration-pet-shop-concept-emblem-dog.jpg?forcejpeg=true) center/cover no-repeat;;
+
+  }
+
+  .bgimg-registro{
+    border-radius: 25px !important;
+    background: url(https://c8.alamy.com/compes/hh27ja/patron-sin-fisuras-con-gatos-y-perros-diseno-plano-hh27ja.jpg) center/cover no-repeat;;
+  }
+  
+  .btnnew{
+    background-color: rgb(110, 191, 141, 0.5) !important;
+  }
+
+  .btn:hover{
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+  }

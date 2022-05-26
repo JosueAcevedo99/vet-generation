@@ -1,0 +1,172 @@
+
+:root{
+    --font:  "Trebuchet MS";
+    --color: #6ebf8d;
+}
+
+body{
+    font-family: var(--font);
+}
+
+/* Modal */
+
+.bgmodal{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmt9E-ltdWgvuczkSd8UCeo84a7_qRTRs2zw&usqp=CAU);
+}
+.modal-body{
+    border-radius: 50px !important;
+}
+
+/* button */
+.bg-primary{
+    background-color: var(--color)!important;
+}
+
+
+/* titulo */
+
+#titulo{
+    color: var(--color)!important;
+}
+
+img{
+    border-radius: 25px;
+}
+
+/* Ajuste a todos los botones menos el de la barra de navegación */
+
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btns button):hover{
+    background-color: var(--color);
+    color: #fff;
+    border-color: var(--color);
+}
+
+
+
+.nav-link:hover{
+    color: var(--color)!important;
+}
+
+/* se cambia el text primary por defecto al color */
+.text-primary{
+    color: var(--color)!important;
+}
+
+/* seccion carrusel */
+.carousel{
+    margin-top: 5rem;
+}
+
+
+.servicios-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.servicios-img:hover img{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+/* jardineras */ 
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+/* banner oferta*/
+#offers{
+    background: url(https://us.123rf.com/450wm/taszanatasha/taszanatasha1511/taszanatasha151100845/47991383-patr%C3%B3n-transparente-con-siluetas-coloridas-del-perro-en-el-fondo-negro-terrier-blanco-de-las-monta%C3%B1a.jpg?ver=6) center/cover no-repeat;
+}
+#offers .row{
+    min-height: 60vh;
+}
+.offers-content span{
+    font-size: 28px;
+}
+.offers-content h2{
+    font-size: 60px;
+    font-family: var(--font);
+}
+.offers-content .btn{
+    border-color: transparent!important;
+}
+
+/* about */
+.about{
+    margin-top: 3rem !important;
+}
+
+/* footer */
+footer .brand{
+    font-family: var(--font);
+    letter-spacing: 2px;
+}
+footer a{
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: var(--color)!important;
+}
+
+.icons{
+    font-size: x-large!important;
+}
+
+/* media queries */
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+/* small queries */
+@media (max-width: 576px) {
+    #titulo{
+        font-size:small !important;
+    }
+
+    #btn-navbar{
+        font-size: small !important;
+    }
+
+    .carousel-inner h1{
+        font-size: 35px !important;
+    }
+    
+    .carousel-inner h2{
+        font-size: 40px !important;
+    }
+
+    .derechos{
+        padding-left: 0.25rem !important;
+        font-size:small;
+    }
+
+}
