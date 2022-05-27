@@ -49,7 +49,6 @@ img{
 }
 
 
-
 .nav-link:hover{
     color: var(--color)!important;
 }
@@ -65,28 +64,8 @@ img{
 }
 
 
-.servicios-img span{
-    top: 20px;
-    right: 20px;
-    width: 46px;
-    height: 46px;
-    border-radius: 50%;
-}
+/* paquetes */ 
 
-.servicios-img:hover img{
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-}
-
-/* jardineras */ 
-.special-img span{
-    top: 20px;
-    right: 20px;
-}
-.special-list .btn{
-    padding: 8px 20px!important;
-}
 .special-img img{
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -102,9 +81,7 @@ img{
 #offers{
     background: url(https://us.123rf.com/450wm/taszanatasha/taszanatasha1511/taszanatasha151100845/47991383-patr%C3%B3n-transparente-con-siluetas-coloridas-del-perro-en-el-fondo-negro-terrier-blanco-de-las-monta%C3%B1a.jpg?ver=6) center/cover no-repeat;
 }
-#offers .row{
-    min-height: 60vh;
-}
+
 .offers-content span{
     font-size: 28px;
 }
@@ -126,11 +103,7 @@ footer .brand{
     font-family: var(--font);
     letter-spacing: 2px;
 }
-footer a{
-    -webkit-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-}
+
 footer a:hover{
     color: var(--color)!important;
 }
