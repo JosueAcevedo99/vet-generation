@@ -17,6 +17,6 @@ btn.onclick = () =>{
 const btnnew = document.getElementById('btnnew');
 
 btnnew.onclick = () =>{
-  window.location.href = 'registro.html'
+  window.location.href = 'registro.html';
 }
 
